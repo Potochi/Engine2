@@ -1,0 +1,3 @@
+/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/CMakeFiles/Engine2Cmake.dir
+/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/CMakeFiles/edit_cache.dir

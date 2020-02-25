@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Engine2Cmake"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engine2Cmake">
+				<Option output="/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Engine2Cmake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 Engine2Cmake"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engine2Cmake/fast">
+				<Option output="/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Engine2Cmake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 Engine2Cmake/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/livian/CLionProjects/Engine2Cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/ECS.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Component.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Component_handle.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Component_manager.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Component_mask.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Engine.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Entity.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Entity_handle.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Entity_manager.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Entity_map.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/Includes.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/include/System.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/src/Component.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/src/Component_mask.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/src/Engine.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/src/Entity_manager.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/src/Entity_map.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ECS/src/System.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/APP/APP.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/APP/include/Application.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/APP/include/Application_state.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/APP/src/Application.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/CORE.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Controller.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Events.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Font.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Init.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Multithreading.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Render.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/SDL_includes.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Scancodes.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Surface.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Surface_factory.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Texture.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Timer.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Utilities.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Window.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Window_attributes.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Wrappers.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Controller.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Events.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Font.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Init.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Multithreading.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Render.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Surface.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Surface_factory.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Texture.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Timer.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Window.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Wrappers.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/ENGINE/Engine.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/EV_BUS/EV_BUS.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/EV_BUS/include/Event.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/EV_BUS/include/Event_bus.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/EV_BUS/include/Function_handler.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/LOG.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/include/CTimer.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/include/Color.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/include/Log_query.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/include/Logger.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/include/Specialized_logger.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/src/CTimer.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/src/Color.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/src/Log_query.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/src/Logger.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/LOG/src/Specialized_logger.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/RES_MANAGER.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/include/Centralized_resource_manager.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/include/Resource_manager.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/include/Resource_type_counter.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/src/Resource_type_counter.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/SANDBOX/include/My_game.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/SANDBOX/include/Test_state.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/SANDBOX/src/My_game.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/SANDBOX/src/Test_state.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/UTIL/UTIL.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/UTIL/include/Utility.h">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/UTIL/src/Utility.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/main.cpp">
+			<Option target="Engine2Cmake"/>
+		</Unit>
+		<Unit filename="/home/livian/CLionProjects/Engine2Cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
