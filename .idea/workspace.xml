@@ -21,10 +21,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="lUzQcWhr" />
   </component>
   <component name="ProjectId" id="1YIYtLJXCDC5WR5KtoEQD4ZNtB2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -61,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582631788856</updated>
-      <workItem from="1582631790578" duration="1977000" />
+      <workItem from="1582631790578" duration="2059000" />
     </task>
     <servers />
   </component>
