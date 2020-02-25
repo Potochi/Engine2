@@ -12,8 +12,8 @@ namespace LOG {
     int Specialized_logger::longest_name_length = 0;
 
     void Specialized_logger::Log(Log_query *query) {
+        Print_query(query);
 //     if(this==NULL)
-        return;
 #ifdef WINDOWS_CODE
         int color;
         std::string message;
@@ -47,7 +47,8 @@ namespace LOG {
 
 
     void Specialized_logger::Print_query(Log_query *query) {
-        return;
+        std::cout << query->message << std::flush;
+
 #ifdef WINDOWS_CODE
         int col = query->color;
         std::string message = query->message;

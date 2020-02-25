@@ -11,6 +11,7 @@
 #include <sys/time.h>
 #include <algorithm>
 #include <queue>
+#include <iostream>
 #include <string>
 
 namespace LOG
