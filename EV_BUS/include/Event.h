@@ -1,10 +1,8 @@
 #ifndef EVENT_H
 #define EVENT_H
 
-namespace EV_BUS
-{
-    class Event
-    {
+namespace EV_BUS {
+    class Event {
     };
 }
 

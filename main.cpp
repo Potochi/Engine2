@@ -3,12 +3,11 @@
 
 #include <cstdio>
 
-int main( int argc, char *args[] )
-{
-    Engine::Application app("sq test",800,600,0,"res/icon.png");
+int main(int argc, char *args[]) {
+    Engine::Application app("sq test", 800, 600, 0, "res/icon.png");
     app.Init();
 
-    Mine_game::My_game *sq=new Mine_game::My_game(&app);
+    Mine_game::My_game *sq = new Mine_game::My_game(&app);
 
     app.Change_state(sq);
 

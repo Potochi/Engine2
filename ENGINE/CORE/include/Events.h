@@ -4,13 +4,12 @@
 #include "Wrappers.h"
 #include "Scancodes.h"
 
-namespace Engine
-{
-    class Events
-    {
-     public:
-     static const Uint8 *keystates;
-     static void Pump_events();
+namespace Engine {
+    class Events {
+    public:
+        static const Uint8 *keystates;
+
+        static void Pump_events();
     };
 }
 

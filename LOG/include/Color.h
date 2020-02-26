@@ -2,8 +2,7 @@
 #define COLOR_H
 
 
-namespace LOG
-{
+namespace LOG {
 #ifdef WINDOWS_CODE
     enum Color
     {
@@ -25,15 +24,17 @@ namespace LOG
      BG_INTENSITY=  BACKGROUND_INTENSITY
     };
 #endif
-    class Console_painter
-    {
-     private:
+
+    class Console_painter {
+    private:
 //     HANDLE console;
 
-     public:
-     void Init();
-     void Change_color(int color);
-     void Reset_color();
+    public:
+        void Init();
+
+        void Change_color(int color);
+
+        void Reset_color();
     };
 }
 

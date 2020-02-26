@@ -318,6 +318,10 @@ cstdio
 ../../CORE/include/Texture.h
 /home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Texture.h
 
+/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Timer.cpp
+../include/Timer.h
+/home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Timer.h
+
 /home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/src/Window.cpp
 ../../CORE/include/Window.h
 /home/livian/CLionProjects/Engine2Cmake/ENGINE/CORE/include/Window.h
@@ -424,9 +428,25 @@ iostream
 string
 -
 
+/home/livian/CLionProjects/Engine2Cmake/LOG/src/CTimer.cpp
+../include/CTimer.h
+/home/livian/CLionProjects/Engine2Cmake/LOG/include/CTimer.h
+
+/home/livian/CLionProjects/Engine2Cmake/LOG/src/Color.cpp
+../include/Color.h
+/home/livian/CLionProjects/Engine2Cmake/LOG/include/Color.h
+
+/home/livian/CLionProjects/Engine2Cmake/LOG/src/Log_query.cpp
+../include/Log_query.h
+/home/livian/CLionProjects/Engine2Cmake/LOG/include/Log_query.h
+
 /home/livian/CLionProjects/Engine2Cmake/LOG/src/Logger.cpp
 ../include/Logger.h
 /home/livian/CLionProjects/Engine2Cmake/LOG/include/Logger.h
+
+/home/livian/CLionProjects/Engine2Cmake/LOG/src/Specialized_logger.cpp
+../include/Specialized_logger.h
+/home/livian/CLionProjects/Engine2Cmake/LOG/include/Specialized_logger.h
 
 /home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/RES_MANAGER.h
 include/Centralized_resource_manager.h
@@ -448,6 +468,10 @@ unordered_map
 string
 -
 
+/home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/include/Resource_type_counter.h
+
+/home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/src/Resource_type_counter.cpp
+../include/Resource_type_counter.h
 /home/livian/CLionProjects/Engine2Cmake/RES_MANAGER/include/Resource_type_counter.h
 
 /home/livian/CLionProjects/Engine2Cmake/SANDBOX/include/My_game.h
@@ -480,6 +504,12 @@ cxxabi.h
 memory
 -
 string
+-
+
+/home/livian/CLionProjects/Engine2Cmake/UTIL/src/Utility.cpp
+../include/Utility.h
+/home/livian/CLionProjects/Engine2Cmake/UTIL/include/Utility.h
+assert.h
 -
 
 /home/livian/CLionProjects/Engine2Cmake/main.cpp

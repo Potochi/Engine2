@@ -1,10 +1,8 @@
 #include "../include/Utility.h"
 #include <assert.h>
 
-namespace UTIL
-{
-    bool Set_console_size(int width, int height)
-    {
+namespace UTIL {
+    bool Set_console_size(int width, int height) {
 // TODO reimplement to be platrofm agnostic
 #ifdef FIXED
         _COORD coord;

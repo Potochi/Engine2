@@ -4,16 +4,15 @@
 #include <ctime>
 #include <chrono>
 
-namespace LOG
-{
-    class CTimer
-    {
-     private:
-     std::chrono::steady_clock::time_point start;
+namespace LOG {
+    class CTimer {
+    private:
+        std::chrono::steady_clock::time_point start;
 
-     public:
-     void Start();
-     long long Get_time();
+    public:
+        void Start();
+
+        long long Get_time();
     };
 }
 

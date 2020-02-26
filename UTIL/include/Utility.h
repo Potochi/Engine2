@@ -12,26 +12,22 @@
 #include <memory>
 #include <string>
 
-namespace UTIL
-{
-    static const char *Demangle(const char *name)
-    {
+namespace UTIL {
+    static const char *Demangle(const char *name) {
         char buffer[1024];
-        size_t size=1024;
+        size_t size = 1024;
         int status;
-        char *ret=abi::__cxa_demangle(name,buffer,&size,&status);
+        char *ret = abi::__cxa_demangle(name, buffer, &size, &status);
         return ret;
     }
 
     template<typename T>
-    const char *Get_type(T var)
-    {
+    const char *Get_type(T var) {
         return Demangle(typeid(T).name());
     }
 
     template<typename T>
-    const char *Get_type()
-    {
+    const char *Get_type() {
         return Demangle(typeid(T).name());
     }
 
@@ -39,8 +35,7 @@ namespace UTIL
 }
 
 template<typename T, typename... Args>
-std::unique_ptr<T> make_unique(Args&&... args)
-{
+std::unique_ptr<T> make_unique(Args &&... args) {
     return std::unique_ptr<T>(new T(std::forward<Args>(args)...));
 }
 
