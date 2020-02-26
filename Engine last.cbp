@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Engine last" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Engine last" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Engine last" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fpermissive" />
+			<Add directory="E:/Programming/Engine last/redist/SDL2/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_mixer -lSDL2_image" />
+			<Add directory="E:/Programming/Engine last/redist/SDL2/lib" />
+		</Linker>
+		<Unit filename="ECS/ECS.h" />
+		<Unit filename="ECS/include/Component.h" />
+		<Unit filename="ECS/include/Component_handle.h" />
+		<Unit filename="ECS/include/Component_manager.h" />
+		<Unit filename="ECS/include/Component_mask.h" />
+		<Unit filename="ECS/include/Engine.h" />
+		<Unit filename="ECS/include/Entity.h" />
+		<Unit filename="ECS/include/Entity_handle.h" />
+		<Unit filename="ECS/include/Entity_manager.h" />
+		<Unit filename="ECS/include/Entity_map.h" />
+		<Unit filename="ECS/include/Includes.h" />
+		<Unit filename="ECS/include/System.h" />
+		<Unit filename="ECS/src/Component.cpp" />
+		<Unit filename="ECS/src/Component_mask.cpp" />
+		<Unit filename="ECS/src/Engine.cpp" />
+		<Unit filename="ECS/src/Entity_manager.cpp" />
+		<Unit filename="ECS/src/Entity_map.cpp" />
+		<Unit filename="ECS/src/System.cpp" />
+		<Unit filename="ENGINE/APP/APP.h" />
+		<Unit filename="ENGINE/APP/include/Application.h" />
+		<Unit filename="ENGINE/APP/include/Application_state.h" />
+		<Unit filename="ENGINE/APP/src/Application.cpp" />
+		<Unit filename="ENGINE/CORE/CORE.h" />
+		<Unit filename="ENGINE/CORE/include/Controller.h" />
+		<Unit filename="ENGINE/CORE/include/Events.h" />
+		<Unit filename="ENGINE/CORE/include/Font.h" />
+		<Unit filename="ENGINE/CORE/include/Init.h" />
+		<Unit filename="ENGINE/CORE/include/Multithreading.h" />
+		<Unit filename="ENGINE/CORE/include/Render.h" />
+		<Unit filename="ENGINE/CORE/include/SDL_includes.h" />
+		<Unit filename="ENGINE/CORE/include/Scancodes.h" />
+		<Unit filename="ENGINE/CORE/include/Surface.h" />
+		<Unit filename="ENGINE/CORE/include/Surface_factory.h" />
+		<Unit filename="ENGINE/CORE/include/Texture.h" />
+		<Unit filename="ENGINE/CORE/include/Timer.h" />
+		<Unit filename="ENGINE/CORE/include/Utilities.h" />
+		<Unit filename="ENGINE/CORE/include/Window.h" />
+		<Unit filename="ENGINE/CORE/include/Window_attributes.h" />
+		<Unit filename="ENGINE/CORE/include/Wrappers.h" />
+		<Unit filename="ENGINE/CORE/src/Controller.cpp" />
+		<Unit filename="ENGINE/CORE/src/Events.cpp" />
+		<Unit filename="ENGINE/CORE/src/Font.cpp" />
+		<Unit filename="ENGINE/CORE/src/Init.cpp" />
+		<Unit filename="ENGINE/CORE/src/Multithreading.cpp" />
+		<Unit filename="ENGINE/CORE/src/Render.cpp" />
+		<Unit filename="ENGINE/CORE/src/Surface.cpp" />
+		<Unit filename="ENGINE/CORE/src/Surface_factory.cpp" />
+		<Unit filename="ENGINE/CORE/src/Texture.cpp" />
+		<Unit filename="ENGINE/CORE/src/Timer.cpp" />
+		<Unit filename="ENGINE/CORE/src/Window.cpp" />
+		<Unit filename="ENGINE/CORE/src/Wrappers.cpp" />
+		<Unit filename="ENGINE/Engine.h" />
+		<Unit filename="EV_BUS/EV_BUS.h" />
+		<Unit filename="EV_BUS/include/Event.h" />
+		<Unit filename="EV_BUS/include/Event_bus.h" />
+		<Unit filename="EV_BUS/include/Function_handler.h" />
+		<Unit filename="LOG/LOG.h" />
+		<Unit filename="LOG/include/CTimer.h" />
+		<Unit filename="LOG/include/Color.h" />
+		<Unit filename="LOG/include/Log_query.h" />
+		<Unit filename="LOG/include/Logger.h" />
+		<Unit filename="LOG/include/Specialized_logger.h" />
+		<Unit filename="LOG/src/CTimer.cpp" />
+		<Unit filename="LOG/src/Color.cpp" />
+		<Unit filename="LOG/src/Log_query.cpp" />
+		<Unit filename="LOG/src/Logger.cpp" />
+		<Unit filename="LOG/src/Specialized_logger.cpp" />
+		<Unit filename="RES_MANAGER/RES_MANAGER.h" />
+		<Unit filename="RES_MANAGER/include/Centralized_resource_manager.h" />
+		<Unit filename="RES_MANAGER/include/Resource_manager.h" />
+		<Unit filename="RES_MANAGER/include/Resource_type_counter.h" />
+		<Unit filename="RES_MANAGER/src/Resource_type_counter.cpp" />
+		<Unit filename="SANDBOX/include/My_game.h" />
+		<Unit filename="SANDBOX/include/Test_state.h" />
+		<Unit filename="SANDBOX/src/My_game.cpp" />
+		<Unit filename="SANDBOX/src/Test_state.cpp" />
+		<Unit filename="UTIL/UTIL.h" />
+		<Unit filename="UTIL/include/Utility.h" />
+		<Unit filename="UTIL/src/Utility.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
